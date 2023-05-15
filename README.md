@@ -2,6 +2,9 @@
 
 **Description:** *Based on Edward Tufte's book style, this document class adds a a big margin on the side for figures, tables, sidenotes and citations. This class was done by modifying Gilles Castel's master thesis template, you can check it out [here](https://github.com/gillescastel/masterthesis)*
 
+![Untitled design](https://github.com/brunood1/liberbook/assets/97195236/4d576cc2-f4fc-4f39-8f42-d475563e1e70)
+
+
 ## **How to use the document class**
 The simplest way to use the document class, so that it works with both local and online LaTeX installations, is to have the .cls file inside your project folder, and then at the top of the preamble just write `\documentclass[〈options〉]{liberbook}`. I always go with a4paper and 11pt, but I don't recommend changing the papersize since that's also defined in the geometry package which will result in an error
 
@@ -65,8 +68,6 @@ All of those environments take a title as an option parameter, for example
 * ``marginnote`` like a sidenote but without a number ``\marginnote{<note>}[<offset>]``
 
 * Inside a default ``figure`` or ``table`` environment you can use the ``\sidecaption{}`` command for the caption to show up on the margin instead of the usual placement. 
-
-![image](https://ibb.co/B2Np8hz)
 
 ## **Suggestions**
 ### **Fonts**
